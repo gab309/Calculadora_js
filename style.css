@@ -13,7 +13,9 @@ main{
 }
 
 .h1{
-    margin-top: 0;
+color: blueviolet;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 
 }
 .inputnumeros{
@@ -23,32 +25,32 @@ main{
 }
 .inputnumeros input{
     height: 25px;
-    border: 1px solid black;
+    border: 1px solid rgb(89, 20, 150);
     border-radius: 10px;
-    font-size: 8px;
+    font-size: 15px;
     padding-left: 10px;
 }
 .somar{
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 5px 3px;
     background-color: blueviolet;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    width: 70px;
+    width: 84px;
   
    
 }
 .subtrair{
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 5px 3px;
     background-color: blueviolet;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    width: 70px;
+    width: 84px;
 
     
 
@@ -56,39 +58,40 @@ main{
 }
 .multiplicacao{
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 5px 3px;
     background-color: blueviolet;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    width: 80px;
+    width: 84px;
 }
 
 .dividir{
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 5px 3px;
     background-color: blueviolet;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    width: 80px;
-  
-   
+    width: 84px;
 }
 
 .areaderesultado{
     font-size: 13px;
     margin: 10px;
+    background-color: rgb(206, 184, 228);
 
 }
 
 .btnLimpar{
-    padding: 5px 8px;
-    font-size: 8px;
-    background-color: antiquewhite;
+    padding: 8px 7px;
+    font-size: 12px;
+    background-color: rgb(166, 116, 231);
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    width: 78px;
+    height: 29px;
 }

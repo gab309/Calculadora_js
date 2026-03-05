@@ -49,7 +49,7 @@ function somar() {
     
 
     const soma = numero1+numero2;
-    pResultado.textContent = "Resultado" +soma;
+    pResultado.textContent = "Resultado:" +soma;
 
 
 }
@@ -59,7 +59,7 @@ botaoSomar.addEventListener('click', somar);
 function limpar() {
     inputnum1.value ="";
     inputnum2.value ="";
-    pResultado.textContent = "Resultado";
+    pResultado.textContent = "Resultado:";
 };
 
 botaoLimpar.addEventListener("click",limpar);
@@ -86,7 +86,7 @@ function subtrair() {
     
 
     const soma = numero1-numero2;
-    pResultado.textContent = "Resultado" +soma;
+    pResultado.textContent = "Resultado:" +soma;
 
 
 }
@@ -141,10 +141,13 @@ function dividir() {
 
 
     }
-    
+     if ( numero2 === 0){
+        pResultado.textContent = " Digite um valor que não seja zero"
+        return
+     };
 
     const soma = numero1/numero2;
-    pResultado.textContent = "Resultado" +soma;
+    pResultado.textContent = "Resultado:" +soma;
 
 
 }
